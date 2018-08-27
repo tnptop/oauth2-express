@@ -5,9 +5,6 @@
  */
 const { google } = require('googleapis')
 const oauth2Client = new google.auth.OAuth2(
-  '15149169663-02mg21vihg1ukuqtbpqrcucd1uq6tqjd.apps.googleusercontent.com',
-  'hujIRptZ1dZwi6_IhveekJ_B',
-  'http://localhost:8881/oauth2callback'
 )
 const scopes = [
   'https://www.googleapis.com/auth/androidpublisher'
