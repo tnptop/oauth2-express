@@ -1,0 +1,25 @@
+{
+  "name": "oauth2-express",
+  "version": "1.0.0",
+  "description": "Example on integrating OAuth2 to express-based server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tnptop/oauth2-express.git"
+  },
+  "author": "Thanapat Bhunnachet",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tnptop/oauth2-express/issues"
+  },
+  "homepage": "https://github.com/tnptop/oauth2-express#readme",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "googleapis": "^33.0.0",
+    "helmet": "^3.13.0"
+  }
+}
